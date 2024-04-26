@@ -1,0 +1,27 @@
+<div>
+  <section class="heading">
+    <h1>Welcome to the <br> Pig Dice Game</h1>
+  </section>
+  <img
+    class="images"
+    width="15%"
+    height="auto"
+    src="../../../assets/red-die.png"
+  />
+  <table class="table table-sm table-striped">
+    <thead>
+      <tr>
+        <th>How Many Games?</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><input [(ngModel)]="gamesCount" class="rounded" type="number" />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <span>
+    <button (click)="play()" class="btn btn-sm btn-primary">Play Now</button>
+  </span>
+</div>

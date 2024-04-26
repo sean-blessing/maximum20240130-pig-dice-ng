@@ -1,0 +1,29 @@
+<div>
+  <section class="heading">
+    <h1>Results</h1>
+  </section>
+  <img
+    class="images"
+    width="15%"
+    height="auto"
+    src="../../../assets/red-die.png"
+  />
+  <table class="table table-sm table-striped">
+    <thead>
+      <tr>
+        <th>Games Played</th>
+        <th>Highest Score</th>
+        <th># Rolls for High Score</th>
+        <th>Avg # Rolls</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{ stats.totalGamesPlayed }}</td>
+        <td>{{ stats.highestScore }}</td>
+        <td>{{ stats.highestScoreNumRolls }}</td>
+        <td>{{ stats.avgNumRolls }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
