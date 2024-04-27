@@ -24,5 +24,8 @@ export class ResultsComponent implements OnInit {
     this.stats = this.gameSvc.stats;
   }
 
+  play() {
+    this.router.navigateByUrl('/welcome');
+  }
   
 }
